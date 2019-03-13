@@ -3,7 +3,7 @@ class EmailParser
   attr_accessor :list_of_emails
 
   def initialize(emails)
-    parse(emails)
+    self.parse(emails)
   end
 
   def self.parse
