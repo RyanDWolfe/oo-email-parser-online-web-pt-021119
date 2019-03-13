@@ -6,7 +6,7 @@ class EmailParser
     parse(emails)
   end
 
-  def parse(emails)
+  def sself.parse
     array = emails.split(/[,]\s/)
     array.uniq
   end
